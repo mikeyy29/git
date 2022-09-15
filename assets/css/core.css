@@ -1,0 +1,134 @@
+body{
+    background-color: #28223F;
+}
+.body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    font-family: sans-serif;
+  
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    /* width: 100%; */
+
+}
+ul li{
+    list-style: none;
+}
+
+/* 
+[class *= "col-"]{
+    position: relative;
+    float: left;} */
+.col-1 {
+    max-width: 8.3333%;
+}
+
+.col-2 {
+    max-width: 16.666%;
+}
+
+.col-3 {
+    max-width: 25%;
+}
+
+.col-4 {
+    max-width: 33.3%;
+}
+
+.col-5 {
+    max-width: 41.666%;
+}
+
+.col-6 {
+    max-width: 50%;
+}
+
+.col-7 {
+    max-width: 58.33333%;
+}
+
+.col-8 {
+    max-width: 66.666%;
+}
+
+.col-9 {
+    max-width: 75%;
+}
+
+.col-10 {
+    max-width: 83.3333%;
+}
+
+.col-11 {
+    max-width: 91.6666%;
+}
+.col-12{
+    max-width: 100%;
+}
+
+.fl-left{
+    float: left;
+}
+.fl-right{
+    float: right;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-img{
+    max-width: 100%;
+}
+.container-img::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-top:60%;
+    width: 100%;
+}
+.container-img img{
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+}
+.max-width{
+    width: 100%;
+    display: block;
+}
+.mt-50{
+    margin-top: 50px;
+}
